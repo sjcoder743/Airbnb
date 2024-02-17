@@ -1,0 +1,137 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  height: 5rem;
+  background-color: #fff;
+}
+
+.fa-airbnb {
+  color: #fe424d;
+  font-size: 1.5rem;
+  margin-top: 0.4rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+
+/* show page */
+.show-image {
+  height: 30vh;
+}
+
+#editImg {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 1rem;
+
+}
+
+#editImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.f-info {
+  display: flex;
+  height: 5.5rem;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+  text-align: center;
+}
+
+.f-info-links,
+.f-info-social,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-social i {
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+
+.addBtn {
+  border: none !important;
+  background-color: #fe424d !important;
+}
+
+/* footer styling */
+.link {
+  cursor: pointer;
+  color: #222222;
+  margin-top: 1rem;
+}
+
+/*Index page  */
+.listing-card {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+
+.listing_links {
+  text-decoration: none;
+}
+
+/* card Effect(or overlay effect)  */
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+#map {
+  height: 400px;
+  width: 80vh;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+
+
